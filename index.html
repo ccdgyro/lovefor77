@@ -42,20 +42,20 @@
                         <span class="say">  不用言语，沉默中目光相触，也有甜蜜满溢</span><br>
                         <span class="say">  一天有点长，想到很快能见你，瞬间满心欢喜</span><br>
                         <span class="say"> </span><br>
-                        <span class="say">  天色将晚人潮渐散</span><br>
+                        <span class="say">  天色将晚，人潮渐散</span><br>
 			        	<span class="say">  不知觉，应知觉</span><br>
-                        <span class="say">  好想，我想  是喜欢，是爱意</span><br>
+                        <span class="say">  好想，我想。是喜欢，是爱意</span><br>
                         <span class="say"> </span><br>
-			        	<span class="say">  未曾相逢先一笑 应是梦邂已廿春</span><br>
-                        <span class="say">  丝挽罗结同君尘 初会便已许平生</span><br>
+			        	<span class="say">  未曾相逢先一笑，应是梦邂已廿春</span><br>
+                        <span class="say">  丝挽罗结同君尘，初会便已许平生</span><br>
                         <span class="say"> </span><br>
 			        	<span class="say">  慢慢喜欢你，慢慢变亲密</span><br>
                         <span class="say">  要披星戴月去想你，我奋不顾身地前进</span><br>
                         <span class="say">  是我的幸运</span><br>
                         <!-- <span class="say"> </span><br> -->
-                        <span class="say">  我想，好想  和你漫步喻岱桥、时见鹿</span><br>
-                        <span class="say">  我想，好想  和你读最好的书，赏最美的景 </span><br>
-                        <span class="say">  我想，好想  和你在一起感受美好生命</span><br>
+                        <span class="say">  我想，好想。和你漫步喻岱桥、时见鹿</span><br>
+                        <span class="say">  我想，好想。和你读最好的书，赏最美的景 </span><br>
+                        <span class="say">  我想，好想。和你在一起感受美好生命</span><br>
                         <span class="say">  77，你愿意和Chad在一起吗</span>
                         <!-- <span class="say"><span class="space"></span>77，你愿意和Chad在一起吗</span> -->
 			        </div>
@@ -201,20 +201,20 @@
             }
         }));
 
-        var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2020,(9-1),3); 			//时间年月日
-		    together.setHours(21);						//小时	
-		    together.setMinutes(50);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(0);				//秒第二位
+        // var textAnimate = eval(Jscex.compile("async", function () {
+		//     var together = new Date();
+		//     together.setFullYear(2020,(9-1),3); 			//时间年月日
+		//     together.setHours(21);						//小时	
+		//     together.setMinutes(50);					//分钟
+		//     together.setSeconds(0);					//秒前一位
+		//     together.setMilliseconds(0);				//秒第二位
 
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
+		//     $("#code").show().typewriter();
+        //     $("#clock-box").fadeIn(500);
+        //     while (true) {
+        //         timeElapse(together);
+        //         $await(Jscex.Async.sleep(1000));
+        //     }
         }));
 
         var runAsync = eval(Jscex.compile("async", function () {
